@@ -88,4 +88,4 @@ Inspect the exported `three3d` support report and runtime diagnostics for the ac
 
 Before presenting this as a working example, capture real evidence of moving, stopping, turning, and teleporting. Keep the effect source, exported bundle, host integration, and reproduction instructions together. No screenshots, runtime measurements, or successful test results are claimed here.
 
-*Disclosure: Prepared with AI assistance for NixieFX marketing. Runtime verification of this recipe is pending.*
+
