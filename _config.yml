@@ -1,0 +1,8 @@
+title: Valentina M
+description: Technical notes on AI task handoffs and web-game effects.
+url: "https://valentina-mkrtu.github.io"
+baseurl: ""
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
