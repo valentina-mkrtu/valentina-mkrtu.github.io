@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: "Turn a QA reproduction into a repair brief a developer can execute"
 description: "A game-studio handoff that connects a repro clip, environment, repair scope, and regression evidence."
 date: 2026-10-09
