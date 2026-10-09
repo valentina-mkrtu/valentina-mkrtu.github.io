@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: "A technical delivery should be an evidence packet, not a victory message"
 description: "How to connect changed files, test output, screenshots, and known limits to a reviewable acceptance decision."
 date: 2026-10-09
