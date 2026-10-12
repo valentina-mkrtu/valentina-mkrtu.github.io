@@ -2,7 +2,7 @@
 layout: post
 title: "Review a particle-polish change with a contact sheet and an artist's decision"
 description: "A practical review packet for game effects: a bounded brief, comparable frames, and approval tied to the delivered revision."
-date: 2026-10-13
+date: 2026-10-12
 ---
 
 The hardest part of reviewing a particle-polish change is often knowing what to compare. A developer sends a new clip. The artist remembers an earlier version. Someone says the effect feels stronger, but nobody is looking at the same frame, camera, or background.
@@ -44,7 +44,7 @@ Use three columns: the current effect, the artist's target reference, and the ca
 
 The target reference may be an annotated frame or a drawing. Label it clearly so nobody mistakes it for a captured implementation. Circle the attack indicator and mark the area in which bright sparks may appear. Keep annotations outside the important visual regions where possible.
 
-Required asset placeholder: insert the completed contact sheet here. Suggested alt text: “Current sword-hit effect, annotated visual target, and candidate effect compared at four matched times, with the enemy attack indicator marked.” The screenshot and candidate columns must come from the game; neither has been supplied for this example.
+For a completed sheet, use descriptive alt text such as: “Current sword-hit effect, annotated visual target, and candidate effect compared at four matched times, with the enemy attack indicator marked.” The screenshot and candidate columns must come from your game. This illustrative process does not include a captured implementation.
 
 Save the full-speed clips alongside the sheet. Still frames show overlap, while motion reveals whether the effect feels late, disconnected, or unexpectedly persistent. Record the scene revision, effect revision, viewport, camera settings, and random seed where the implementation supports one.
 
@@ -54,7 +54,7 @@ Imagine that the candidate clears the indicator during the expansion but hides i
 
 The next attempt can then adjust the tail without rebuilding the whole burst. Preserve the original reference and add the new candidate. Do not replace every image in the packet and force the reviewer to reconstruct what changed.
 
-That continuity is valuable in a game studio AI workflow because implementation may move between people and agents. The visual decision should survive that handoff. [Wagglet's mobile game studio stack article](https://wagglet.com/blog/ai-native-mobile-game-studio-stack) is the assigned background reference for the broader coordination context.
+That continuity is valuable in a game studio AI workflow because implementation may move between people and agents. The visual decision should survive that handoff. [Wagglet's mobile game studio stack article](https://wagglet.com/blog/ai-native-mobile-game-studio-stack) provides further background on the broader coordination context.
 
 ## Record the artist's actual sign-off
 
