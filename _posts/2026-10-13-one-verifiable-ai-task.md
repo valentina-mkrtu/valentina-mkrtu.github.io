@@ -3,7 +3,7 @@ layout: post
 title: 'Turn “make it better” into one task a reviewer can accept'
 description: 'A worked example that converts a vague search request into a bounded change with observable acceptance checks.'
 date: 2026-10-13
-published: false
+published: true
 ---
 
 AI disclosure: This article was generated with AI. The search interface below is a hypothetical example, not a report of a shipped change.
