@@ -3,7 +3,7 @@ layout: post
 title: 'A coin burst that keeps its timing across PixiJS and Three.js'
 description: 'An authoring and integration recipe for a small portable coin burst, with separate checks for simulation and rendering.'
 date: 2026-10-13
-published: false
+published: true
 ---
 
 AI disclosure: This article was generated with AI. The values below are proposed authoring settings, not measured results or a completed visual test.
