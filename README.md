@@ -16,3 +16,27 @@ This recipe creates a small splash when game logic reports a raindrop hitting a 
 Check one impact, repeated impacts, a moving camera, and scene re-entry. Record the actual runtime versions and observed behavior. A splash that repeats every frame while a drop rests on the ground indicates a trigger problem.
 
 Unsupported for this recipe: Three.js lit shading and mesh-surface emission. PixiJS draw ordering is not GPU depth testing. Editor bloom is not an exported postprocessing pipeline. The six-particle choice is not a mobile performance guarantee. Keep runtime validation pending until an actual exported asset has been integrated.
+
+
+## Queue work by impact and evidence
+
+Use this review card for work management for human and AI teams. A task enters the ready queue only when its scope, authorized access, and acceptance check are known. A large impact estimate does not compensate for a missing reviewer.
+
+1. **Impact:** State the user or team problem and the consequence of leaving it unresolved.
+2. **Risk:** Describe what a mistaken change could affect and whether it can be reversed. Route data, access, and release-sensitive work to the appropriate specialist.
+3. **Readiness:** Confirm the environment, dependencies, owner, and stop conditions before assigning execution.
+4. **Verification:** Name the reviewer and the evidence they will use to accept or return the result.
+
+```text
+Outcome: prevent duplicate export requests while one is pending
+Impact: repeated user action creates avoidable duplicate work
+Risk: bounded interaction change; preserve keyboard behavior
+Ready when: reproduction, repository access, and local setup are available
+Accept when: duplicate activation is blocked; success and failure restore action
+Evidence: focused diff, reproduction outcomes, test command and result
+Stop if: the server contract must change
+```
+
+The author prepares the request. The runner executes with their own authorized agent tools and repository access. The reviewer judges acceptance; the release owner controls deployment. In the example, a missing failure-path check sends the task back for evidence even when the agent reports success.
+
+Rank ready tasks by their expected impact, then consider risk and review effort. Track token cost as a resource constraint, not a reward score. This is a suggested rubric, not a validated predictor of delivery time. The [Wagglet discussion of work bounties and rewards](https://wagglet.com/blog/gamification-ai-work-bounties-rewards) provides context for choosing incentives around useful, verified outcomes.
