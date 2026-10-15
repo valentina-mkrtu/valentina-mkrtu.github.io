@@ -9,7 +9,7 @@ A startup can have several capable AI tools and still struggle to assign a small
 
 The runner needs authorized access to the relevant environment, enough judgment to recognize the requested outcome, and a tool that can perform the bounded operation. Those requirements overlap, but they are not interchangeable. A strong coding model cannot grant repository access. Repository access does not establish permission to deploy. Product knowledge does not automatically qualify someone to approve a technical change.
 
-This article was created with AI assistance for Wagglet-related marketing. The example below is a proposed workflow, not a report of a customer result or a measured productivity gain.
+The example below is a proposed workflow, not a report of a customer result or a measured productivity gain.
 
 ## Start with the evidence the task must produce
 
@@ -31,7 +31,7 @@ If Noor's tool cannot run the required test command, that limitation becomes vis
 
 The useful record explains why this assignment is workable and what would invalidate it. It does not need to become a scoring system with misleading precision.
 
-~~~text
+```text
 Outcome: confirmation text matches the preference saved in staging
 Prepared by: component owner
 Runner: Noor, using her own authorized editor and repository access
@@ -43,7 +43,7 @@ Tool requirement: inspect files, make a narrow edit, run documented tests
 Evidence: reproduction before/after, commit reference, commands and outputs
 Stop: server contract change, missing access, unrelated failure, unclear state
 Acceptance: reviewer inspects evidence against the named cases
-~~~
+```
 
 For a team asking how to **delegate AI task without sharing account** access, the useful unit is this bounded assignment. The [Wagglet article on AI task handoffs](https://wagglet.com/blog/close-team-skill-gaps-with-ai-task-handoffs) describes how expert preparation and a concrete human check can support that arrangement. The handoff carries context and acceptance criteria; the runner supplies their own authorized execution environment.
 
