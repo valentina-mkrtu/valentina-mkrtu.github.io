@@ -5,7 +5,7 @@ description: "Check host transforms before tuning a Three.js muzzle flash."
 date: 2026-10-19
 ---
 
-This guide was written with AI assistance as part of NixieFX marketing. This is an implementation guide with proposed test conditions, not a completed weapon demo or a performance claim.
+This is an implementation guide with proposed test conditions, not a completed weapon demo or a performance claim.
 
 A muzzle flash is brief enough that a transform error can look like an art problem. A flash that appears behind the weapon may have the correct asset and the wrong origin. A flash that rotates strangely may be receiving local angles as world angles. A flash that never fully disappears may be attached to a looping emitter.
 

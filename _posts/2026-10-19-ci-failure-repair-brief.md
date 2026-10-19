@@ -5,7 +5,7 @@ description: "A failing CI job needs a reproduction before it needs a bigger pro
 date: 2026-10-19
 ---
 
-This article was written with AI assistance as part of Wagglet marketing. This tutorial uses an intentionally broken local fixture, not a customer incident.
+This tutorial uses an intentionally broken local fixture, not a customer incident.
 
 A red CI job invites a broad request: “Fix the build.” That request is usually too loose. It does not say whether the failure is in application behavior, the test environment, dependency installation, or the job definition. A coding agent can make the status green by changing the wrong thing if the brief never explains what the check protects.
 

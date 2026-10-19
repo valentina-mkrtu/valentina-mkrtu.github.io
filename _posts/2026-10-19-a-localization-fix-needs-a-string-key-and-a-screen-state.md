@@ -5,7 +5,7 @@ description: "Prepare an inspectable localization repair with string keys and sc
 date: 2026-10-19
 ---
 
-This guide was written with AI assistance as part of Wagglet marketing. The screen and strings below are a fictional game UI example.
+The screen and strings below are a fictional game UI example.
 
 A localization report that says “the button text is cut off” leaves three teams with different questions. Design needs to know which layout is failing. Engineering needs to know which resource and state produce it. QA needs a repeatable way to decide whether the correction holds.
 

@@ -5,7 +5,7 @@ description: "A bounded Three.js effect integration recipe with explicit limits.
 date: 2026-10-19
 ---
 
-This guide was written with AI assistance as part of NixieFX marketing. This article provides an implementation recipe and acceptance checks; it does not report a completed explosion demo or measured performance.
+This article provides an implementation recipe and acceptance checks; it does not report a completed explosion demo or measured performance.
 
 An explosion effect has two independent jobs. It needs to communicate where the event happened, and it needs to leave the scene cleanly after that event. A visually elaborate burst can fail either job if its origin moves with the camera or its looping emitters never stop.
 
